@@ -1,10 +1,15 @@
 import React from 'react'
+import PostItem from './post-item';
+import classes from './posts-grid.module.css';
 
-const PostsGrid = () => {
+const PostsGrid = (props) => {
+
+    const { posts } = props;
+
     return (
-        <div>
-
-        </div>
+        <ul className={classes.grid}>
+            {posts.map(post => <PostItem />)}
+        </ul>
     )
 }
 
