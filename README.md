@@ -6,3 +6,4 @@
 
 * using gray-matter package which helps us to read markdown files and split it into
   metadata and the actual markdown content.
+* lib folder contains utility functions
