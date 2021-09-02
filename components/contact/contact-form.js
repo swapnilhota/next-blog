@@ -20,7 +20,7 @@ const ContactForm = () => {
                     <label htmlFor="message">Your message</label>
                     <textarea id="message" rows="5"></textarea>
                 </div>
-                <div className={classes.action}>
+                <div className={classes.actions}>
                     <button>Send Message</button>
                 </div>
             </form>
